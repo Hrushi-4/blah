@@ -1,0 +1,42 @@
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rbc-calendar {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.rbc-time-view {
+  border-top: none;
+}
+
+.rbc-time-header {
+  padding: 1rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.rbc-time-content {
+  font-size: 0.8rem;
+}
+
+.rbc-event {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.rbc-selected {
+  background-color: #bbdefb;
+}
+
+.rbc-show-more {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.rbc-show-more:hover {
+  background-color: #1976d2;
+}
